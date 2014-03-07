@@ -1,2 +1,4 @@
+removed_sources:
+  mate-icon-theme-faenza-1.6.0.tar.xz: 17fcac5602f9b3039101e03a17e9d0f693f2dd78
 sources:
-  "mate-icon-theme-faenza-1.6.0.tar.xz": 17fcac5602f9b3039101e03a17e9d0f693f2dd78
+  mate-icon-theme-faenza-1.8.0.tar.xz: 60ecb21261d969e60925254cb435a4a877540d4c
