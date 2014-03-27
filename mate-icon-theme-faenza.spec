@@ -1,12 +1,14 @@
-Summary:		MATE icon theme faenza
-Name:			mate-icon-theme-faenza
-Version:		1.6.0
-Release:		1
-URL:			http://mate-desktop.org
-Source0:		http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-License:		GPLv2
-BuildArch:		noarch
-Group:			Graphical desktop/Other
+%define url_ver %(echo %{version}|cut -d. -f1,2)
+
+Summary:	MATE icon theme faenza
+Name:		mate-icon-theme-faenza
+Version:	1.8.0
+Release:	1
+Group:		Graphical desktop/Other
+License:	GPLv2
+Url:		http://mate-desktop.org
+Source0:	http://pub.mate-desktop.org/releases/%{url_ver}/%{name}-%{version}.tar.xz
+BuildArch:	noarch
 BuildRequires:	icon-naming-utils
 BuildRequires:	mate-common
 
@@ -23,7 +25,7 @@ NOCONFIGURE=1 ./autogen.sh
 	--enable-icon-mapping
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT INSTALL="install -p"
+make install DESTDIR=%{buildroot} INSTALL="install -p"
 
 %post
 /bin/touch --no-create %{_datadir}/icons/matefaenza &>/dev/null || :
@@ -50,3 +52,4 @@ fi
 %{_datadir}/icons/matefaenza/
 %{_datadir}/icons/matefaenzagray/
 %{_datadir}/icons/matefaenzadark/
+
