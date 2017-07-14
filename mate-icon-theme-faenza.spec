@@ -56,6 +56,7 @@ and some icons customized for MATE by Rowen Stipe.
 %{_iconsdir}/matefaenzadark/stock
 %{_iconsdir}/matefaenzadark/index.theme
 %ghost %{_iconsdir}/matefaenzadark/icon-theme.cache
+%{_var}/lib/rpm/filetriggers/gtk-icon-cache-mate-faenza.*
 
 #---------------------------------------------------------------------------
 
