@@ -30,13 +30,13 @@ and some icons customized for MATE by Rowen Stipe.
 %files
 %doc COPYING AUTHORS NEWS README
 %dir %{_iconsdir}/matefaenza
-%{_iconsdir}/matefaenza/*
+%{_iconsdir}/matefaenza/*/*
 %ghost %{_iconsdir}/matefaenza/icon-theme.cache
 %dir %{_iconsdir}/matefaenzagray
-%{_iconsdir}/matefaenzagray/*
+%{_iconsdir}/matefaenzagray/*/*
 %ghost %{_iconsdir}/matefaenzagray/icon-theme.cache
 %dir %{_iconsdir}/matefaenzadark
-%{_iconsdir}/matefaenzadark/*
+%{_iconsdir}/matefaenzadark/*/*
 %ghost %{_iconsdir}/matefamatefaenzadarkenza/icon-theme.cache
 
 #---------------------------------------------------------------------------
