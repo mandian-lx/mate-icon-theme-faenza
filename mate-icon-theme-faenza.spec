@@ -30,14 +30,33 @@ and some icons customized for MATE by Rowen Stipe.
 %files
 %doc COPYING AUTHORS NEWS README
 %dir %{_iconsdir}/matefaenza
-%{_iconsdir}/matefaenza/*/*
+%{_iconsdir}/matefaenza/
+%{_iconsdir}/matefaenza/actions
+%{_iconsdir}/matefaenza/apps
+%{_iconsdir}/matefaenza/categories
+%{_iconsdir}/matefaenza/devices
+%{_iconsdir}/matefaenza/emblems
+%{_iconsdir}/matefaenza/extra
+%{_iconsdir}/matefaenza/mimetypes
+%{_iconsdir}/matefaenza/places
+%{_iconsdir}/matefaenza/status
+%{_iconsdir}/matefaenza/stock
+%{_iconsdir}/matefaenza/index.theme
 %ghost %{_iconsdir}/matefaenza/icon-theme.cache
 %dir %{_iconsdir}/matefaenzagray
-%{_iconsdir}/matefaenzagray/*/*
+%{_iconsdir}/matefaenzagray/index.theme
 %ghost %{_iconsdir}/matefaenzagray/icon-theme.cache
 %dir %{_iconsdir}/matefaenzadark
-%{_iconsdir}/matefaenzadark/*/*
-%ghost %{_iconsdir}/matefamatefaenzadarkenza/icon-theme.cache
+%{_iconsdir}/matefaenzadark/actions
+%{_iconsdir}/matefaenzadark/apps
+%{_iconsdir}/matefaenzadark/categories
+%{_iconsdir}/matefaenzadark/devices
+%{_iconsdir}/matefaenzadark/extra
+%{_iconsdir}/matefaenzadark/places
+%{_iconsdir}/matefaenzadark/status
+%{_iconsdir}/matefaenzadark/stock
+%{_iconsdir}/matefaenzadark/index.theme
+%ghost %{_iconsdir}/matefaenzadark/icon-theme.cache
 
 #---------------------------------------------------------------------------
 
