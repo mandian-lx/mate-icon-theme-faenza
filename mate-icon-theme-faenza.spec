@@ -30,13 +30,12 @@ and some icons customized for MATE by Rowen Stipe.
 %files
 %doc COPYING AUTHORS NEWS README
 %dir %{_iconsdir}/matefaenza
-%{_iconsdir}/matefaenza/
 %{_iconsdir}/matefaenza/actions
 %{_iconsdir}/matefaenza/apps
 %{_iconsdir}/matefaenza/categories
 %{_iconsdir}/matefaenza/devices
 %{_iconsdir}/matefaenza/emblems
-%{_iconsdir}/matefaenza/extra
+%{_iconsdir}/matefaenza/extras
 %{_iconsdir}/matefaenza/mimetypes
 %{_iconsdir}/matefaenza/places
 %{_iconsdir}/matefaenza/status
@@ -51,7 +50,7 @@ and some icons customized for MATE by Rowen Stipe.
 %{_iconsdir}/matefaenzadark/apps
 %{_iconsdir}/matefaenzadark/categories
 %{_iconsdir}/matefaenzadark/devices
-%{_iconsdir}/matefaenzadark/extra
+%{_iconsdir}/matefaenzadark/extras
 %{_iconsdir}/matefaenzadark/places
 %{_iconsdir}/matefaenzadark/status
 %{_iconsdir}/matefaenzadark/stock
