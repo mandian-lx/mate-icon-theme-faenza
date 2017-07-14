@@ -67,13 +67,13 @@ cat > %{buildroot}%{_var}/lib/rpm/filetriggers/gtk-icon-cache-mate-faenza.filter
 EOF
 cat > %{buildroot}%{_var}/lib/rpm/filetriggers/gtk-icon-cache-mate-faenza.script << EOF
 #!/bin/sh
-if [ -x /usr/bin/gtk-update-icon-cache ]; then 
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
   /usr/bin/gtk-update-icon-cache --force --quiet /usr/share/icons/matefaenza
   /usr/bin/gtk-update-icon-cache --force --quiet /usr/share/icons/matefaenzagray
   /usr/bin/gtk-update-icon-cache --force --quiet /usr/share/icons/matefaenzadark
 fi
 EOF
-chmod 0755 %{buildroot}%{_var}/lib/rpm/filetriggers/gtk-icon-cache-mate.script
+chmod 0755 %{buildroot}%{_var}/lib/rpm/filetriggers/gtk-icon-cache-mate-faenza.script
 
 %post
 %update_icon_cache matefaenza matefaenzagray matefaenzadark
