@@ -2,7 +2,7 @@
 
 Summary:	MATE icon theme faenza
 Name:		mate-icon-theme-faenza
-Version:	1.18.0
+Version:	1.18.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
