@@ -43,6 +43,7 @@ and some icons customized for MATE by Rowen Stipe.
 %{_iconsdir}/matefaenza/index.theme
 %ghost %{_iconsdir}/matefaenza/icon-theme.cache
 %dir %{_iconsdir}/matefaenzagray
+%{_iconsdir}/matefaenzagray/actions
 %{_iconsdir}/matefaenzagray/index.theme
 %ghost %{_iconsdir}/matefaenzagray/icon-theme.cache
 %dir %{_iconsdir}/matefaenzadark
